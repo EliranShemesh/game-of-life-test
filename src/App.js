@@ -5,7 +5,9 @@ import World from './components/world';
 
 function App() {
   return (
-    <div className="App" />
+    <div className="App">
+      <World cols={ 42 } rows={ 300 } />
+    </div>
   );
 }
 
